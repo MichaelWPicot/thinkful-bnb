@@ -148,7 +148,14 @@ footer p {
   padding: 20px;
 }
 
+
 /* -------  Media Query ------- */
+@media all and (max-width: 600px) {
+  .logo {
+    font-size: 48px;
+  }
+  
+}
 @media all and (min-width: 480px) {
   header{
     padding-left: 10px;
@@ -178,8 +185,9 @@ footer p {
  
 
   .justify{
+    align-items: center;
     text-align: justify;
-    
+    justify-content: center;
   }
   .grid {
     display: grid;
@@ -229,5 +237,10 @@ footer p {
   padding: 0px 5px;
   flex-shrink: 0;
  flex-flow: row wrap;
+}
+.ymargin {
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 }
